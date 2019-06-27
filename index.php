@@ -57,11 +57,6 @@
   		text-align: center;
  
   	}
-  	#big_dogs_logo{
-  		display: flex;
-		justify-content: center;
-		align-items: center;
-  	}
 
   	#main-content{
   		background-color: rgba(255,255,255,0.8);
@@ -110,7 +105,7 @@
 		display:flex;
 		flex-direction: row;
 		height: 100%;
-		width: 90%;
+		width: 100%;
 		justify-content: center;
 		align-items: center;
 		position: absolute;
