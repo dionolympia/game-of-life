@@ -69,6 +69,9 @@
   		margin-left: auto;
   		margin-right: auto;
 		margin: auto;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
   	}
 
   	li{
@@ -146,7 +149,7 @@
 
 		<div class="content">
 			<h3>Description:</h3>
-			<p style="margin: 10px; font-family: 'Baloo Bhai', cursive;">This website was an assignment created by Prof. Russell Cain, guided by Dr. Amit Patra, and completed by Team BigDogs.  The webpages were developed in PHP, HTML, and CSS.  The game, which is written in Javascript, is based on Conway's Game of Life.</li>
+			<p style="margin: 10px; font-family: 'Baloo Bhai', cursive; align-text:center;">This website was an assignment created by Prof. Russell Cain, guided by Dr. Amit Patra, and completed by Team BigDogs.  The webpages were developed in PHP, HTML, and CSS.  The game, which is written in Javascript, is based on Conway's Game of Life.</li>
 			<br>
 			<div style = "text-align: center;">	
 				<a  style = "font-family: 'Baloo Bhai', cursive;" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">(Wikipedia - Conway's Game of Life)</a>
