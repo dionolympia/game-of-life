@@ -32,16 +32,17 @@
 		    );
 		    
 		    animation: test infinite @r(100s, 150s) linear;
-		    
-		    @keyframes test {
-		        0% {
-		            transform: scale(@rand(.01));
-		        }
-		        100% {
-		            transform: translate3d(@r(-2000%, 3000%), @r(-2000%, 3000%), 0);
-		        }
-
-		    }
+     
+			@keyframes test {
+				0% {
+					transform: translate3d(0, 0, 0);
+				}
+				50% {
+					transform: translate3d(@r(-500%, 1000%), @r(-500%, 1000%), 0);
+				}
+				100% {
+					transform: translate3d(0, 0, 0);
+				}
 
 	</css-doodle>
 
