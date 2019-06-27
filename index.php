@@ -50,8 +50,6 @@
   	img{
 
   		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
   		color: transparent;
   	}
 
@@ -61,8 +59,6 @@
   	}
   	#big_dogs_logo{
   		display:block;
-  		margin-left: auto;
-  		margin-right: auto;
   	}
 
   	#main-content{
@@ -70,8 +66,6 @@
   		bottom: 10px;
   		border-radius: 50px;
   		width: 50%;
-  		margin-left: auto;
-  		margin-right: auto;
 		margin: auto;
 		padding-top: 20px;
 		padding-left: 20px;
@@ -115,8 +109,6 @@
 	  text-decoration: none;
 	}
 	.container_test{
-		margin-left: auto;
-		margin-right: auto;
 		text-align: center;
 	}
 
