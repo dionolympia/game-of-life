@@ -62,14 +62,14 @@
   	}
 
   	#main-content{
-  		background-color: white;
+  		background-color: rgba(255,255,255,0.8);
   		bottom: 10px;
-  		height: 50%;
   		border: 20px solid #000000;
   		border-radius: 25px;
   		width: 50%;
   		margin-left: auto;
   		margin-right: auto;
+		margin: auto;
   	}
 
   	li{
