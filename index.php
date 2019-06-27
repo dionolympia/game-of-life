@@ -28,10 +28,11 @@
 		    }
 		    background: @pick(#000000);
 		    opacity: @r(.9);
+			transform: scale(@rand(.1, .5))
 		    clip-path: square(
 		    );
 		    
-		    animation: test infinite @r(100s, 150s) linear;
+		    animation: test infinite linear;
      
 			@keyframes test {
 				0% {
