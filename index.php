@@ -65,14 +65,6 @@
 
   	#main-content{
   		background-color: rgba(255,255,255,0.8);
-  		bottom: 10px;
-  		border-radius: 50px;
-  		width: 50%;
-		margin: auto;
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-		height: 90%;
   	}
 
   	li{
