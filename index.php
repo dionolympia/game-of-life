@@ -35,7 +35,7 @@
      
 			@keyframes test {
 				0% {
-					transform: scale(@rand(.1, .5));
+					
 					transform: translate3d(0, 0, 0);
 				}
 				50% {
