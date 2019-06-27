@@ -64,8 +64,7 @@
   	#main-content{
   		background-color: rgba(255,255,255,0.8);
   		bottom: 10px;
-  		border: 20px solid #000000;
-  		border-radius: 25px;
+  		border-radius: 50px;
   		width: 50%;
   		margin-left: auto;
   		margin-right: auto;
@@ -120,6 +119,7 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
+		margin-top: 50px;
 	}
 
   </style>
