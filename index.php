@@ -35,10 +35,14 @@
 
 
   <style>
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+	}
+
   	body{
-  		background-color: #FEDE45 !important;
-
-
+		background-color: #FEDE45 !important;
   	}
   	marquee{
   		
