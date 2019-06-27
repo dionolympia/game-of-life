@@ -62,10 +62,10 @@
   	}
 
   	#main-content{
+		position:absolute;
   		background-color: rgba(255,255,255,0.8);
   		bottom: 10px;
   		border-radius: 50px;
-  		width: 50%;
 		margin: auto;
 		padding-top: 20px;
 		padding-left: 20px;
@@ -133,7 +133,7 @@
 
 	<div class="Page">
 
-		<div id="big_dogs_logo" style = "height: 50%">
+		<div id="big_dogs_logo">
 			<div><img id="head" src="assets/img/doghead.png"></div>
 		</div>
 
