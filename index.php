@@ -128,7 +128,6 @@
 		justify-content: center;
 		align-items: center;
 		position: absolute;
-		top: 20px;
 	}
 
   </style>
