@@ -27,26 +27,9 @@
     			z-index: -1;
 		    }
 		    background: @pick(#000000);
-		    opacity: @r(.9);
+		    opacity: @r(0,.1);
 		    clip-path: square(
 		    );
-		    
-		    animation: test infinite @r(100s, 150s) linear;
-		    
-			@keyframes test {
-				0% {
-					transform: scale(.1);
-					transform: translate3d(0, 0, 0);
-				}
-				50% {
-					transform: scale(.1);
-					transform: translate3d(@r(-500%, 1000%), @r(-500%, 1000%), 0);
-				}
-				100% {
-					transform: scale(.1);
-					transform: translate3d(0, 0, 0);
-				}
-			}
 
 	</css-doodle>
 
