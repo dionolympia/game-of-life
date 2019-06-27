@@ -28,7 +28,7 @@
 		    }
 		    background: @pick(#000000);
 		    opacity: @r(0,1);
-			transform: scale(@rand(.1, .5))
+			transform: scale(@rand(.1, .5));
 		    @shape: rhombus 5;
 		    
 		    animation: test infinite (100s, 150s) linear;
