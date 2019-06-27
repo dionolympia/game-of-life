@@ -27,9 +27,9 @@
     			z-index: -1;
 		    }
 		    background: @pick(#000000);
-		    opacity: @r(.9);
+		    opacity: @r(0,1);
 			transform: scale(@rand(.1, .5))
-		    @shape: rhombus;
+		    @shape: rhombus 5;
 		    
 		    animation: test infinite (100s, 150s) linear;
      
@@ -43,6 +43,7 @@
 				100% {
 					transform: translate3d(0, 0, 0);
 				}
+			}
 
 	</css-doodle>
 
