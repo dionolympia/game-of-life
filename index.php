@@ -65,7 +65,7 @@
   		background-color: white;
   		bottom: 10px;
   		height: 50%;
-  		border: 20px solid #444444;
+  		border: 20px solid #000000;
   		border-radius: 25px;
   		width: 50%;
   		margin-left: auto;
@@ -142,16 +142,16 @@
 
 
 		<!-- Title -->
-		<h2 class="title">CMSC447 - Project</h2>
+		<h2 class="title" style="text-align: center">CMSC447 - Project</h2>
 
 		<div class="content">
-			<h3 style ="font-family: 'Gugi', cursive;">Description:</h3>
+			<h3>Description:</h3>
 			<p style="margin: 10px; font-family: 'Baloo Bhai', cursive;">This website was an assignment created by Prof. Russell Cain, guided by Dr. Amit Patra, and completed by Team BigDogs.  The webpages were developed in PHP, HTML, and CSS.  The game, which is written in Javascript, is based on Conway's Game of Life.</li>
 			<br>
 			<div style = "text-align: center;">	
 				<a  style = "font-family: 'Baloo Bhai', cursive;" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">(Wikipedia - Conway's Game of Life)</a>
 			</div>
-			<h3 style ="font-family: 'Gugi', cursive;">Team BigDogs:</h3>
+			<h3>Team BigDogs:</h3>
 
 			<div style = "text-align: center;">
 
