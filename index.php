@@ -123,10 +123,11 @@
 	.Page{
 		display:flex;
 		flex-direction: row;
-		height: 90%;
+		height: 100%;
 		width: 100%;
 		justify-content: center;
 		align-items: center;
+		margin auto;
 	}
 
   </style>
