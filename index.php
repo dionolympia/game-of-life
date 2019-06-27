@@ -127,7 +127,8 @@
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		margin auto;
+		position: absolute;
+		top: 20px;
 	}
 
   </style>
