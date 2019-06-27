@@ -62,7 +62,6 @@
   	}
 
   	#main-content{
-		position:absolute;
   		background-color: rgba(255,255,255,0.8);
   		bottom: 10px;
   		border-radius: 50px;
