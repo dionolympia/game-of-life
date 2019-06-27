@@ -67,7 +67,6 @@
   		height: 50%;
   		border: 20px solid #444444;
   		border-radius: 25px;
-  		margin-bottom: 25%;
   		width: 50%;
   		margin-left: auto;
   		margin-right: auto;
@@ -117,6 +116,10 @@
 	.Page{
 		display:flex;
 		flex-direction: row;
+		height: 100%;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
 	}
 
   </style>
