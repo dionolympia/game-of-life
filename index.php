@@ -27,12 +27,12 @@
     			z-index: -1;
 		    }
 		    background: @pick(#000000);
-		    opacity: @r(.9);
+		    opacity: @r(0,.1);
 			transform: scale(@rand(.1, .5));
 		    clip-path: square(
 		    );
 		    
-		    animation: test infinite linear;
+		    animation: test infinite (200s,250s)linear;
      
 			@keyframes test {
 				0% {
