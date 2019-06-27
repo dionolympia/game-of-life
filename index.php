@@ -28,7 +28,6 @@
 		    }
 		    background: @pick(#000000);
 		    opacity: @r(.9);
-			transform: scale(@rand(.01));
 		    clip-path: square(
 		    );
 		    
@@ -36,12 +35,15 @@
 		    
 			@keyframes test {
 				0% {
+					transform: scale(.1);
 					transform: translate3d(0, 0, 0);
 				}
 				50% {
+					transform: scale(.1);
 					transform: translate3d(@r(-500%, 1000%), @r(-500%, 1000%), 0);
 				}
 				100% {
+					transform: scale(.1);
 					transform: translate3d(0, 0, 0);
 				}
 			}
