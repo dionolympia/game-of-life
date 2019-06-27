@@ -22,14 +22,14 @@
   <css-doodle grid="5" class="doodle">
 
 		    :doodle {
-		        @grid: 10 / 100vmax;
+		        @grid: 25 / 100vmax;
 		        position:fixed;
     			z-index: -1;
 		    }
 		    background: @pick(#000000);
 		    opacity: @r(.9);
 			transform: scale(@rand(.1, .5))
-		    @shape: rhombus 5;
+		    @shape: rhombus;
 		    
 		    animation: test infinite (100s, 150s) linear;
      
