@@ -114,6 +114,11 @@
 		text-align: center;
 	}
 
+	.Page{
+		display:flex;
+		flex-direction: row;
+	}
+
   </style>
 
 </head>
@@ -123,50 +128,56 @@
 	$active = "home";
         include 'includes/header.php'; ?>
 
-	<div id="big_dogs_logo" style = "height: 50%">
-		<div><img id="head" src="assets/img/doghead.png"></div>
-	</div>
+	<div class="Page">
 
-	<div id="main-content">
+		<div id="big_dogs_logo" style = "height: 50%">
+			<div><img id="head" src="assets/img/doghead.png"></div>
+		</div>
 
-
-
-	<!-- Title -->
-    <h2 class="title" style="text-align:center; font-family: 'Baloo Bhai', cursive;">CMSC447 - Project</h2>
-
-	<div class="content">
-	<h3 style ="font-family: 'Gugi', cursive;">Description:</h3>
-	<p style="margin: 10px; font-family: 'Baloo Bhai', cursive;">This website was an assignment created by Prof. Russell Cain, guided by Dr. Amit Patra, and completed by Team BigDogs.  The webpages were developed in PHP, HTML, and CSS.  The game, which is written in Javascript, is based on Conway's Game of Life.</li>
-	<br>
-	<div style = "text-align: center;">	
-		<a  style = "font-family: 'Baloo Bhai', cursive;" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">(Wikipedia - Conway's Game of Life)</a>
-	</div>
-	<h3 style ="font-family: 'Gugi', cursive;">Team BigDogs:</h3>
-
-	<div style = "text-align: center;">
-
-		<p> Daniel Diseroad</p>
-		<p> Andrew Brewer </p>
-		<p> Ren Brown </p>
-		<p> Edwin Valdez </p>
-		<p> Dion Olympia </p>
-		<p> Yangyin Xu </p>
+		<div id="main-content">
 
 
-	</div>
-	
-	
+
+		<!-- Title -->
+		<h2 class="title">CMSC447 - Project</h2>
+
+		<div class="content">
+			<h3 style ="font-family: 'Gugi', cursive;">Description:</h3>
+			<p style="margin: 10px; font-family: 'Baloo Bhai', cursive;">This website was an assignment created by Prof. Russell Cain, guided by Dr. Amit Patra, and completed by Team BigDogs.  The webpages were developed in PHP, HTML, and CSS.  The game, which is written in Javascript, is based on Conway's Game of Life.</li>
+			<br>
+			<div style = "text-align: center;">	
+				<a  style = "font-family: 'Baloo Bhai', cursive;" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">(Wikipedia - Conway's Game of Life)</a>
+			</div>
+			<h3 style ="font-family: 'Gugi', cursive;">Team BigDogs:</h3>
+
+			<div style = "text-align: center;">
+
+				<p> Daniel Diseroad</p>
+				<p> Andrew Brewer </p>
+				<p> Ren Brown </p>
+				<p> Edwin Valdez </p>
+				<p> Dion Olympia </p>
+				<p> Yangyin Xu </p>
 
 
-    </div>
-    <div class = "container_test" style = "margin: 50px;">
-		<div>
+		</div>
+		
+		
+
+
+		</div>
+		<div class = "container_test" style = "margin: 50px;">
 			<div>
-				<!-- A button that sends the user to the page that contains the game -->
-				<a class="butn" href="assets/js/life/life.php"><span>Start Game</span></a>
+				<div>
+					<!-- A button that sends the user to the page that contains the game -->
+					<a class="butn" href="assets/js/life/life.php"><span>Start Game</span></a>
+				</div>
 			</div>
 		</div>
+
+
 	</div>
+	
 
 	<!-- running dog -->
 	<!--
