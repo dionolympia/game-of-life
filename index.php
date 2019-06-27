@@ -27,15 +27,15 @@
     			z-index: -1;
 		    }
 		    background: @pick(#000000);
-		    opacity: @r(0,.1);
+		    opacity: @r(.9);
+			transform: scale(@rand(.01));
 		    clip-path: square(
 		    );
 		    
-		    animation: test infinite (200s,250s)linear;
-     
+		    animation: test infinite @r(100s, 150s) linear;
+		    
 			@keyframes test {
 				0% {
-					
 					transform: translate3d(0, 0, 0);
 				}
 				50% {
