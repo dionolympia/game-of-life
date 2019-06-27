@@ -72,6 +72,7 @@
 		padding-top: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
+		height: 90%;
   	}
 
   	li{
@@ -118,12 +119,10 @@
 	.Page{
 		display:flex;
 		flex-direction: row;
-		height: 100%;
+		height: 90%;
 		width: 100%;
 		justify-content: center;
 		align-items: center;
-		margin-top: 50px;
-		margin-bottom: 50px;
 	}
 
   </style>
